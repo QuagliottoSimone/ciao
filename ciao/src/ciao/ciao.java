@@ -52,7 +52,7 @@ public class ciao {
 		btnSaluti.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				MessageDialog.openInformation(shell, "Titolo", "Ciao mondo");
+				MessageDialog.openInformation(shell, "Titolo", "Ciao mondo bello");
 			}
 		});
 		btnSaluti.setBounds(170, 126, 75, 25);
